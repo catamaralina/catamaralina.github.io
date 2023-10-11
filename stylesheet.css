@@ -1,0 +1,124 @@
+body {
+  font-family: "Avantgarde", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fdf0f1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* style of link texts*/
+.sidebar a {
+  padding: 6px 8px 10px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #111;
+  display: block;
+}
+
+
+/* -- ADD ACTIVE LINK -- */
+
+/* -- ADD responsive sidebar -- */
+
+
+
+.sidebar a:hover {
+  color: #014421;
+}
+
+
+/*body of resume & portf. here*/
+.resume {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  font-size: 16px; /* Increased text to enable scrolling */
+  color: #111;
+  padding: 0px 10px;
+}
+ .portfolio {
+  margin-left: 200px; /*same as sidebar width*/
+  font-size: 16px; /* Increased text to enable scrolling */ 
+  color: #111;
+  padding: 0px 10px;
+  text-align: justify;
+ }
+
+
+
+h2 {
+  font-size: 16 px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+  
+/*bullet points*/
+ul.a {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+ul.b {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+
+/* -- ADD FRAME TO PICTURES? -- */
+/* -- ADD BUFFER BETWEEN IMAGES AT LEAST -- */
+/* center image display*/
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  border: none;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  border: 5px solid #111;
+  padding: 5px;
+}
+
+
+.hide {
+	display: none;
+}
+
+.imgDiv:hover + .hide {
+	display: block;
+	font-style: italic;
+	font-size: 16px;
+	color: #111;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+} 
+
+h1.imageDiv  {
+	font-size: 20px;
+	color: #111;
+	font-style: normal;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/* w3 schools*/
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
