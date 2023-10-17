@@ -11,7 +11,7 @@ body {
   width: 200px;
   position: fixed; 
   z-index: 1; /*top layer element*/
-  top: 0; /*no margins in sidebar*/
+  top: 0; /*no margins on side of page*/
   left: 0;
   background-color: #fdf0f1;
   overflow-x: hidden; /*no horizontal scroll bar*/
@@ -33,6 +33,7 @@ body {
 }
 
 /*for sidebar img*/
+/*logo template from canva @createdbymisia */
 img.logo {
   display: block;
   border: none;
@@ -59,7 +60,6 @@ img.logo {
  }
 
 /*heading paragraphy formats*/
-/*all*/
 h1 {
   font-size: 24px;
   font-weight: normal;
@@ -73,7 +73,7 @@ h1 {
   font-size: 40px;
   font-style: italic;
   text-align: center;
-  color: #40115e;
+  color: #730d73;
   }	 
 h2  {
   font-size: 18px;
@@ -110,7 +110,7 @@ img {
 
 p.quote {
   font-style: italic;
-  color: #40115e;
+  color: #730d73;
 }
 /*for fun*/
 .hide {
