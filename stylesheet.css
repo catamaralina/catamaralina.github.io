@@ -11,7 +11,7 @@ body {
   width: 200px;
   position: fixed; 
   z-index: 1; /*top layer element*/
-  top: 0;
+  top: 0; /*no margins in sidebar*/
   left: 0;
   background-color: #fdf0f1;
   overflow-x: hidden; /*no horizontal scroll bar*/
@@ -21,15 +21,15 @@ body {
 /* style of link texts*/
 .sidebar a {
   padding: 10px;
-  text-decoration: none;
+  text-decoration: none; /*no underline*/
   text-align: center;
   font-size: 25px;
-  color: #111;
-  display: block;
+  color: black;
+  display: block; /*each on their own line*/
 }
 
 .sidebar a:hover {
-  color: #014421;
+  color: #014421; /*different color when hovering*/
 }
 
 /*for sidebar img*/
@@ -41,16 +41,11 @@ img.logo {
 /*SIDEBAR OPTION END*/
 
 
-/* -- ADD ACTIVE LINK -- */
-
-/* -- ADD responsive sidebar -- */
-
-
 /*body of resume & portf. here*/
 .resume {
   margin-left: 200px; /* Same as the width of the sidebar */
   font-size: 16px; 
-  color: #111;
+  color: black;
   padding: 0px 10px;
   text-align: justify;
 }
@@ -58,15 +53,16 @@ img.logo {
   margin-left: 200px; /*same as sidebar width*/
   font-style: italic;
   font-size: 14px;  
-  color: #111;
+  color: black;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
  }
 
 /*heading paragraphy formats*/
 /*all*/
 h1 {
   font-size: 24px;
-  font-style: italic;
   font-weight: normal;
   margin-left: auto;
   margin-right: auto;
@@ -77,67 +73,39 @@ h1 {
 h1.title {
   font-size: 40px;
   font-style: italic;
-  font-weight: normal;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   }	 
 h2  {
   font-size: 18px;
-  color: #111;
+  color: black;
   font-style: normal;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 0px 0px 0px 0px;
 }
 p.abstract {
   font-size: 16px;
-  color: #111;
+  color: black;
   font-style: normal;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
+p.quote
+  
+}
 
-}
-/*specific formatting for mcoc*/
-h1.summoner {
-	font-size:24px;
-	font-style:normal;
-	font-weight: bold;
-}
-h3 {
-	font-size:20px;
-	font-weight: normal;
-}
-h4 {
-	font-size:18px;
-	font-weight:normal;
-}
 /* to get better visual layout for images with descriptions*/
 .desc > p { 
   padding: 0px 10px 40px 10px;
 }
   
-  
-/*bullet points*/
-ul.a {
-  list-style-type: circle;
-  list-style-position: outside;
-}
-ul.b {
-  list-style-type: square;
-  list-style-position: outside;
-}
-
-
 /*give images gallery-like framing*/
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  border: 10px solid #111;
+  border: 10px solid black;
   padding: 5px;
 
 }
@@ -150,31 +118,12 @@ img {
 	display: block;
 	font-style: italic;
 	font-size: 16px;
-	color: #111;
+	color: black;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
 } 
 
-/*START TABLE OPTION*/
-/*W3 schools*/
-/*th: table heading*/
-/*td: table detail*/
-
-table.a {
-	border: 1px solid black;
-	table-layout:auto;
-	width:30%;
-}
-table.b {
-	border: 1px solid black;
-	table-layout: auto;
-	width: 50%;
-}
-th, td { 
-	border: 1px solid black;
-	width:100%;
-}
 
 /*RESPONSIVE LAYOUT OPTION BEGIN*/
 /*max width breakpoint bc started with desktop*/
@@ -185,7 +134,6 @@ th, td {
   .sidebar {
 	  padding-top: 15px; 
 	  width: 100px; 
-	  height: 100%
 	}
   .sidebar a {
 	  padding: 2px;
@@ -194,14 +142,14 @@ th, td {
 	  height: auto;
 	}
   .resume, .portfolio {
-	  margin-left: 100px;
+	  margin-left: 100px; /*same width as sidebar*/
     }
   .logo {
 	  width:90px;
 	  height:90px;
     }
   img {
-	  max-width:90%; /*so border isn't cut off in adjustments*/
+	  max-width:90%; /*so img border isn't cut off in adjustments*/
     }
 }
 
