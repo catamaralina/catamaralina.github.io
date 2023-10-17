@@ -49,6 +49,7 @@ img.logo {
   padding: 0px 10px;
   text-align: justify;
 }
+
  .portfolio {
   margin-left: 200px; /*same as sidebar width*/
   font-style: italic;
@@ -90,15 +91,12 @@ p.abstract {
   margin-right: auto;
   text-align: justify;
 }
-p.quote {
-  font-style: italic
-  color: #40115e;
-}
+
 /* to get better visual layout for images with descriptions*/
 .desc > p { 
   padding: 0px 10px 40px 10px;
 }
-  
+
 /*give images gallery-like framing*/
 img {
   display: block;
@@ -110,6 +108,10 @@ img {
 
 }
 
+p.quote {
+  font-style: italic;
+  color: #40115e;
+}
 /*for fun*/
 .hide {
 	display: none;
