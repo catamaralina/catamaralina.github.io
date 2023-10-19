@@ -57,6 +57,7 @@ img.logo {
   font-style: italic;
   font-size: 14px;  
   color: black;
+  padding: 0px 10px;
   text-align: center;
  }
 
@@ -74,7 +75,7 @@ h1 {
   font-size: 40px;
   font-style: italic;
   text-align: center;
-  color: #730d73;
+  color: #e9a2a7;
   }	 
 h2  {
   font-size: 18px;
@@ -111,7 +112,7 @@ img {
 
 p.quote {
   font-style: italic;
-  color: #730d73;
+  color: #e9a2a7;
 }
 /*for fun*/
 .hide {
