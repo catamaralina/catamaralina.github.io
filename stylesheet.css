@@ -14,8 +14,8 @@ body {
   left: 0;
   background-color: #fdf0f1;
   border: 5px dotted #e9a2a7;	
-  overflow-x: hidden; /*no horizontal scroll bar*/
-  padding-top: 20px;
+  overflow-x: hidden; /*no horizontal scroll bar, but vertical if necessary*/
+  padding-top: 15px;
 }
 
 /* style of link texts*/
@@ -156,7 +156,7 @@ p.quote {
     }
 }
 
-/*smaller & phone screens*/
+/*tablets & large phone screens*/
 @media screen and (max-width: 720px) {
   .sidebar {
 	  padding-top:0px;
@@ -170,7 +170,7 @@ p.quote {
 	  display: inline;
 	  float: left;
 	  text-align: center;
-	  padding: 15px 15px 0px 15px; /*top r bottom l*/
+	  padding: 30px 15px 0px 15px; /*top r bottom l*/
 	  font-size: 20px;
 	  width: auto; /*100%/6*/
 	}
@@ -182,6 +182,11 @@ p.quote {
 	  margin-left: 0px;
 	  padding-top: 90px; /*height of sidebar at top*/
     }
-}
 
-/*RESPONSIVE LAYOUT END*/
+/*small screens*/
+@media screen and (max-width: 630px) {
+  .sidebar a {
+	  padding: 15px 15px 0px 15px; /*top r bottom l*/
+	}
+
+/*RESPONSIVE LAYOUT OPTION END*/
