@@ -9,7 +9,7 @@ body {
 .sidebar {
   height: 100%; /*full screen sidebar*/
   width: 200px;
-  z-index: 1; /*top layer element*/
+  position: fixed;
   top: 0; /*no margins on side of page*/
   left: 0;
   background-color: #fdf0f1;
