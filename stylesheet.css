@@ -182,7 +182,7 @@ p.quote {
 	  margin-left: 0px;
 	  padding-top: 90px; /*height of sidebar at top*/
     }
-
+}
 /*small screens*/
 @media screen and (max-width: 630px) {
   .sidebar a {
