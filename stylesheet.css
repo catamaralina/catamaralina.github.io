@@ -13,7 +13,7 @@ body {
   top: 0; /*no margins on side of page*/
   left: 0;
   background-color: #fdf0f1;
-  border-right: 10px solid #e9a2a7;	
+  border: 5px dotted #e9a2a7;	
   overflow-x: hidden; /*no horizontal scroll bar*/
   padding-top: 20px;
 }
@@ -165,7 +165,6 @@ p.quote {
 	  position: fixed; /*always displayed at top*/
 	  display: inline;
 	  overflow: hidden;
-	  border-bottom: 10px solid #e9a2a7;
 	}
   .sidebar a {
 	  display: inline;
