@@ -14,13 +14,14 @@ body {
   top: 0; /*no margins on side of page*/
   left: 0;
   background-color: #fdf0f1;
+  border-right: 10px double #e9a2a7;	
   overflow-x: hidden; /*no horizontal scroll bar*/
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* style of link texts*/
 .sidebar a {
-  padding: 10px;
+  padding: 15px;
   text-decoration: none; /*no underline*/
   text-align: center;
   font-size: 25px;
